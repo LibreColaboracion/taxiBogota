@@ -1,0 +1,63 @@
+input[type=checkbox].check1 {display: none;}
+input[type=checkbox].check1 + label { 
+	background: #fff; 
+	display: inline-block; 
+	width: 160px; 
+	height: 45px; 
+	background: url(check_03.png) 0px 0px no-repeat; 
+	text-indent: -1000em; 
+}
+input[type=checkbox].check1:checked + label { 
+    background: url(check_03.png) 0px -45px no-repeat;
+}
+input[type=checkbox].check2 {display: none;}
+input[type=checkbox].check2 + label { 
+	background: #fff; 
+	display: inline-block; 
+	width: 160px; 
+	height: 45px; 
+	background: url(check_03.png) 0px 0px no-repeat; 
+	text-indent: -1000em; 
+}
+input[type=checkbox].check2:checked + label { 
+    background: url(check_03.png) 0px -45px no-repeat;
+}
+input[type=checkbox].check3 {display: none;}
+input[type=checkbox].check3 + label { 
+	background: #fff; 
+	display: inline-block; 
+	width: 160px; 
+	height: 45px; 
+	background: url(check_03.png) 0px 0px no-repeat; 
+	text-indent: -1000em; 
+}
+input[type=checkbox].check3:checked + label { 
+    background: url(check_03.png) 0px -45px no-repeat;
+}
+input[type=checkbox].check4 {display: none;}
+input[type=checkbox].check4 + label { 
+	background: #fff; 
+	display: inline-block; 
+	width: 160px; 
+	height: 45px; 
+	background: url(check_03.png) 0px 0px no-repeat; 
+	text-indent: -1000em; 
+}
+input[type=checkbox].check4:checked + label { 
+    background: url(check_03.png) 0px -45px no-repeat;
+}
+input[type=checkbox].check5 {display: none;}
+input[type=checkbox].check5 + label { 
+	background: #fff; 
+	display: inline-block; 
+	width: 160px; 
+	height: 45px; 
+	background: url(check_03.png) 0px 0px no-repeat; 
+	text-indent: -1000em; 
+}
+input[type=checkbox].check5:checked + label { 
+    background: url(check_03.png) 0px -45px no-repeat;
+}
+p{
+    color: aqua;
+}

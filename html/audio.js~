@@ -1,0 +1,30 @@
+<script>
+    var audioElm = document.getElementById("audio1");
+    var button = document.getElementById("mutebutton");
+    var textfield = document.getElementById("audioFile");
+    textfield.addEventListener("change", function () {
+      audioElm.src = textfield.value;
+      audioElm.load();
+      audioElm.play();
+    }, false);
+
+    //  Alternates between mute and unmute based on the value of the muted property
+    button.addEventListener("click", function () {
+      if (audioElm.muted == true) {
+        audioElm.muted = false;
+      } else {
+        audioElm.muted = true;
+      }
+    }, false);
+
+    audioElm.addEventListener("volumechange", function () {
+      if (audioElm.muted) {
+        // if muted, show mute image
+        button.innerHTML = button.innerText = "Unmute"; // button text 
+      } else {
+        // if not muted, show not muted image
+        button.innerHTML = button.innerText = "Mute"; // 
+      }
+    }, false);
+
+  </script>
