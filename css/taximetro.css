@@ -1,14 +1,18 @@
+
+
+
+
 input[type=checkbox].check1 {display: none;}
 input[type=checkbox].check1 + label { 
 	background: #fff; 
 	display: inline-block; 
 	width: 160px; 
 	height: 45px; 
-	background: url(check_03.png) 0px 0px no-repeat; 
+	background: url(../imagenes/aeropuerto.png) 0px 0px no-repeat; 
 	text-indent: -1000em; 
 }
 input[type=checkbox].check1:checked + label { 
-    background: url(check_03.png) 0px -45px no-repeat;
+    background: url(../imagenes/aeropuerto.png) 0px -45px no-repeat;
 }
 input[type=checkbox].check2 {display: none;}
 input[type=checkbox].check2 + label { 
@@ -16,11 +20,11 @@ input[type=checkbox].check2 + label {
 	display: inline-block; 
 	width: 160px; 
 	height: 45px; 
-	background: url(check_03.png) 0px 0px no-repeat; 
+	background: url(../imagenes/puerta.png) 0px 0px no-repeat; 
 	text-indent: -1000em; 
 }
 input[type=checkbox].check2:checked + label { 
-    background: url(check_03.png) 0px -45px no-repeat;
+    background: url(../imagenes/puerta.png) 0px -45px no-repeat;
 }
 input[type=checkbox].check3 {display: none;}
 input[type=checkbox].check3 + label { 
@@ -28,11 +32,11 @@ input[type=checkbox].check3 + label {
 	display: inline-block; 
 	width: 160px; 
 	height: 45px; 
-	background: url(check_03.png) 0px 0px no-repeat; 
+	background: url(../imagenes/otros.png) 0px 0px no-repeat; 
 	text-indent: -1000em; 
 }
 input[type=checkbox].check3:checked + label { 
-    background: url(check_03.png) 0px -45px no-repeat;
+    background: url(../imagenes/otros.png) 0px -45px no-repeat;
 }
 input[type=checkbox].check4 {display: none;}
 input[type=checkbox].check4 + label { 
@@ -40,11 +44,11 @@ input[type=checkbox].check4 + label {
 	display: inline-block; 
 	width: 160px; 
 	height: 45px; 
-	background: url(check_03.png) 0px 0px no-repeat; 
+	background: url(../imagenes/noche.png) 0px 0px no-repeat; 
 	text-indent: -1000em; 
 }
 input[type=checkbox].check4:checked + label { 
-    background: url(check_03.png) 0px -45px no-repeat;
+    background: url(../imagenes/noche.png) 0px -45px no-repeat;
 }
 input[type=checkbox].check5 {display: none;}
 input[type=checkbox].check5 + label { 
@@ -52,12 +56,97 @@ input[type=checkbox].check5 + label {
 	display: inline-block; 
 	width: 160px; 
 	height: 45px; 
-	background: url(check_03.png) 0px 0px no-repeat; 
+	background: url(../imagenes/otros.png) 0px 0px no-repeat; 
 	text-indent: -1000em; 
 }
 input[type=checkbox].check5:checked + label { 
-    background: url(check_03.png) 0px -45px no-repeat;
+    background: url(../imagenes/otros.png) 0px -45px no-repeat;
 }
 p{
     color: aqua;
+}
+
+
+.boton{
+
+background-color: #2dc234;
+background-image: -webkit-linear-gradient(rgba(41, 150, 47, .8), rgba(45, 194, 52, .2));
+background-image: -moz-linear-gradient(rgba(41, 150, 47, .8), rgba(45, 194, 52, .2));
+background-image: -o-linear-gradient(rgba(41, 150, 47, .8), rgba(45, 194, 52, .2));
+background-image: linear-gradient(rgba(41, 150, 47, .8), rgba(45, 194, 52, .2));
+-ms-border-radius:8px;
+-webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius: 8px;
+-webkit-box-shadow: 0 8px 0 #197b1d, 0 10px 20px rgba(0, 0, 0, .4);
+-moz-box-shadow: 0 8px 0 #197b1d, 0 10px 20px rgba(0, 0, 0, .4);
+box-shadow: 0 8px 0 #197b1d, 0 10px 20px rgba(0, 0, 0, .4);
+color: #fff;
+display: inline-block;
+font-family: ‘Pacifico’, Arial, sans-serif;
+font-size: 30px;
+line-height: 1;
+padding: 15px 25px;
+text-decoration: none;
+text-shadow: 0 -1px 1px rgba(25, 123, 29, .7);
+
+}
+
+
+header {
+    border: 1px solid black;
+    }
+    
+#titulo {
+	font-size: 11vw;
+	float: right;
+	margin-top: 3%;
+	right: 7%;
+}
+
+
+nav {
+	width: 100%;
+}
+
+.menu ul, .menu li {
+	list-style: none;
+	margin:-10px -1px 12px -50px; 
+	padding:0px 0px 0px 9px;
+	
+
+}
+.menu a {
+	background: #FFFF00;
+	color: #8b8b8b;
+	display: block;
+	font: bold 21px/20px sans-serif;
+	padding: 10px 25px;
+	text-align: center;
+	text-decoration: none;
+	
+	
+}
+.menu li:hover a {
+	background: #000000;
+}
+
+ 
+#unid {
+	color: #8b8b8b;
+	display: block;
+	font: lighter 22px/22px cursive;	
+	text-align: center;
+	text-decoration: none;
+}
+
+.cuadro{
+	text-align: center;
+}
+
+#recargos{
+	color: #8b8b8b;
+	font: lighter 22px/22px cursive;	
+	text-align: center;
+	margin-top: -34px;
 }
