@@ -142,7 +142,7 @@ nav {
 
 #recargos{
 	color: #8b8b8b;
-	font: lighter 22px/22px cursive;	
+	font: lighter 22px/0px cursive;	
 	text-align: center;
 	margin-top: opx;
 	width: 320px;
@@ -155,8 +155,9 @@ nav {
 }
 
 #resul {
-	
-	font-family: elvetica;
 	text-align: center;
-	font-size: 11vw;
+	font-size: 15vw;
+	background-color: green;
+	width: 100%;
+	height:auto;
 }
