@@ -2,61 +2,71 @@ input[type=checkbox].check1 {display: none;}
 input[type=checkbox].check1 + label { 
 	background: #fff; 
 	display: inline-block; 
-	width: 150px; 
+	width: 47%; 
 	height: 69px; 
 	background: url(../imagenes/aeropuerto.png) 0px 0px no-repeat; 
+	background-size: 100% 200%;
 	text-indent: -1000em; 
 }
 input[type=checkbox].check1:checked + label { 
     background: url(../imagenes/aeropuerto.png) 0px -70px no-repeat;
+    background-size: 100% 200%;
 }
 input[type=checkbox].check2 {display: none;}
 input[type=checkbox].check2 + label { 
 	background: #fff; 
 	display: inline-block; 
-	width: 150px; 
+	width: 47%; 
 	height: 69px; 
 	background: url(../imagenes/puerta.png) 0px 0px no-repeat; 
 	text-indent: -1000em; 
+	background-size: 100% 200%;
 }
 input[type=checkbox].check2:checked + label { 
     background: url(../imagenes/puerta.png) 0px -70px no-repeat;
+    background-size: 100% 200%;
 }
 input[type=checkbox].check3 {display: none;}
 input[type=checkbox].check3 + label { 
 	background: #fff; 
 	display: inline-block; 
-	width: 150px; 
+	width: 47%; 
 	height:69px; 
 	background: url(../imagenes/otros.png) 0px 0px no-repeat; 
 	text-indent: -1000em; 
+	background-size: 100% 200%;
 }
 input[type=checkbox].check3:checked + label { 
     background: url(../imagenes/otros.png) 0px -70px no-repeat;
+    background-size: 100% 200%;
 }
 input[type=checkbox].check4 {display: none;}
 input[type=checkbox].check4 + label { 
 	background: #fff; 
 	display: inline-block; 
-	width: 150px; 
+	width: 47%; 
 	height: 69px; 
 	background: url(../imagenes/noche.png) 0px 0px no-repeat; 
 	text-indent: -1000em; 
+	background-size: 100% 200%;
 }
 input[type=checkbox].check4:checked + label { 
     background: url(../imagenes/noche.png) 0px -70px no-repeat;
+    background-size: 100% 200%;
 }
 input[type=checkbox].check5 {display: none;}
 input[type=checkbox].check5 + label { 
 	background: #fff; 
 	display: inline-block; 
-	width: 160px; 
+	width: 47%; 
 	height: 69px; 
 	background: url(../imagenes/otros.png) 0px 0px no-repeat; 
 	text-indent: -1000em; 
+	background-size: 100% 200%;
 }
 input[type=checkbox].check5:checked + label { 
     background: url(../imagenes/otros.png) 0px -70px no-repeat;
+    background-size: 100% 200%;
 }
 p{
     color: aqua;
@@ -143,10 +153,10 @@ nav {
 #recargos{
 	color: #8b8b8b;
 	font: lighter 22px/0px cursive;	
-	text-align: center;
+	
 	margin-top: opx;
-	width: 320px;
-	text-align: center;
+	width: 100%;
+	
 	margin: auto;
 }
 
