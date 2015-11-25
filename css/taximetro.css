@@ -3,7 +3,7 @@ input[type=checkbox].check1 + label {
 	background: #fff; 
 	display: inline-block; 
 	width: 47%; 
-	height: 69px; 
+	height: 14vh; 
 	background: url(../imagenes/aeropuerto.png) 0px 0px no-repeat; 
 	background-size: 100% 200%;
 	text-indent: -1000em; 
@@ -17,7 +17,7 @@ input[type=checkbox].check2 + label {
 	background: #fff; 
 	display: inline-block; 
 	width: 47%; 
-	height: 69px; 
+	height: 14vh;  
 	background: url(../imagenes/puerta.png) 0px 0px no-repeat; 
 	text-indent: -1000em; 
 	background-size: 100% 200%;
@@ -31,13 +31,13 @@ input[type=checkbox].check3 + label {
 	background: #fff; 
 	display: inline-block; 
 	width: 47%; 
-	height:69px; 
-	background: url(../imagenes/otros.png) 0px 0px no-repeat; 
+	height: 14vh; 
+	background: url(../imagenes/bus.png) 0px 0px no-repeat; 
 	text-indent: -1000em; 
 	background-size: 100% 200%;
 }
 input[type=checkbox].check3:checked + label { 
-    background: url(../imagenes/otros.png) 0px -70px no-repeat;
+    background: url(../imagenes/bus.png) 0px -70px no-repeat;
     background-size: 100% 200%;
 }
 input[type=checkbox].check4 {display: none;}
@@ -45,7 +45,7 @@ input[type=checkbox].check4 + label {
 	background: #fff; 
 	display: inline-block; 
 	width: 47%; 
-	height: 69px; 
+	height: 14vh; 
 	background: url(../imagenes/noche.png) 0px 0px no-repeat; 
 	text-indent: -1000em; 
 	background-size: 100% 200%;
@@ -59,13 +59,13 @@ input[type=checkbox].check5 + label {
 	background: #fff; 
 	display: inline-block; 
 	width: 47%; 
-	height: 69px; 
-	background: url(../imagenes/otros.png) 0px 0px no-repeat; 
+	height: 14vh; 
+	background: url(../imagenes/dominicales.png) 0px 0px no-repeat; 
 	text-indent: -1000em; 
 	background-size: 100% 200%;
 }
 input[type=checkbox].check5:checked + label { 
-    background: url(../imagenes/otros.png) 0px -70px no-repeat;
+    background: url(../imagenes/dominicales.png) 0px -70px no-repeat;
     background-size: 100% 200%;
 }
 p{
@@ -73,28 +73,6 @@ p{
 }
 
 
-.boton{
-
-background-color: #2dc234;
-background-image: -webkit-linear-gradient(rgba(41, 150, 47, .8), rgba(45, 194, 52, .2));
-background-image: -moz-linear-gradient(rgba(41, 150, 47, .8), rgba(45, 194, 52, .2));
-background-image: -o-linear-gradient(rgba(41, 150, 47, .8), rgba(45, 194, 52, .2));
-background-image: linear-gradient(rgba(41, 150, 47, .8), rgba(45, 194, 52, .2));
--ms-border-radius:8px;
--webkit-border-radius: 8px;
--moz-border-radius: 8px;
-border-radius: 8px;
--webkit-box-shadow: 0 8px 0 #197b1d, 0 10px 20px rgba(0, 0, 0, .4);
--moz-box-shadow: 0 8px 0 #197b1d, 0 10px 20px rgba(0, 0, 0, .4);
-box-shadow: 0 8px 0 #197b1d, 0 10px 20px rgba(0, 0, 0, .4);
-color: #fff;
-display: inline-block;
-font-family: ‘Pacifico’, Arial, sans-serif;
-font-size: 30px;
-line-height: 1;
-padding: 15px 25px;
-text-decoration: none;
-text-shadow: 0 -1px 1px rgba(25, 123, 29, .7);
 
 }
 
@@ -105,7 +83,7 @@ header {
     
 #titulo {
 	font-size: 11vw;
-	float: right;
+	float: right; 
 	margin-top: 3%;
 	right: 7%;
 }
@@ -170,4 +148,11 @@ nav {
 	background-color: green;
 	width: 100%;
 	height:auto;
+}
+
+.precio {
+	float: right;
+	width: 47%;
+	height: 14vh; 
+	margin-right: 4%;
 }
