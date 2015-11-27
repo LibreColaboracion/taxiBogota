@@ -3,8 +3,8 @@
   "description":  "app creada por Libre Colaboración",
   "launch_path": "/html/taximetro.html",
   "icons": {
-    "60": "applogo60.png",
-    "128": "AppLogo.png"
+    "60": "/applogo60.png",
+    "128": "/applogo.png"
   },
   "developer": {
     "name": "Libre Colaboración",
