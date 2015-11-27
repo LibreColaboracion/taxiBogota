@@ -12,5 +12,6 @@
   },
     "default_locale": "es",
   "permissions": {}, 
-  "orientation": "portrait"
+  "orientation": "portrait",
+  "type": "privileged"
 }
