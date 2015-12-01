@@ -22,7 +22,7 @@ console.log(suma);
     var unidades = parseInt(unidadesField.value);
     var a = parseInt(sumaCheck(5));    
     var valor_uni = 78;    
-    var valor = (a + unidades) * valor_uni;
+    var valor =100*(Math.round((a + unidades) * valor_uni/100));
     var minima = (a + 50) * valor_uni;
 
     

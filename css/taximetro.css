@@ -1,15 +1,15 @@
 body{
-	background-color: white;
+    background-color: white;
 }
 input[type=checkbox].check1 {display: none;}
 input[type=checkbox].check1 + label { 
-	background: #fff; 
-	display: inline-block; 
-	width: 47%; 
-	height: 14vh; 
-	background: url(../imagenes/aeropuerto.png) 0px 0px no-repeat; 
-	background-size: 100% 200%;
-	text-indent: -1000em; 
+    background: #fff; 
+    display: inline-block; 
+    width: 47%; 
+    height: 14vh; 
+    background: url(../imagenes/aeropuerto.png) 0px 0px no-repeat; 
+    background-size: 100% 200%;
+    text-indent: -1000em; 
 }
 input[type=checkbox].check1:checked + label { 
     background: url(../imagenes/aeropuerto.png) 0px -70px no-repeat;
@@ -17,13 +17,13 @@ input[type=checkbox].check1:checked + label {
 }
 input[type=checkbox].check2 {display: none;}
 input[type=checkbox].check2 + label { 
-	background: #fff; 
-	display: inline-block; 
-	width: 47%; 
-	height: 14vh;  
-	background: url(../imagenes/puerta.png) 0px 0px no-repeat; 
-	text-indent: -1000em; 
-	background-size: 100% 200%;
+    background: #fff; 
+    display: inline-block; 
+    width: 47%; 
+    height: 14vh;  
+    background: url(../imagenes/puerta.png) 0px 0px no-repeat; 
+    text-indent: -1000em; 
+background-size: 100% 200%;
 }
 input[type=checkbox].check2:checked + label { 
     background: url(../imagenes/puerta.png) 0px -70px no-repeat;
@@ -31,13 +31,13 @@ input[type=checkbox].check2:checked + label {
 }
 input[type=checkbox].check3 {display: none;}
 input[type=checkbox].check3 + label { 
-	background: #fff; 
-	display: inline-block; 
-	width: 47%; 
-	height: 14vh; 
-	background: url(../imagenes/bus.png) 0px 0px no-repeat; 
-	text-indent: -1000em; 
-	background-size: 100% 200%;
+    background: #fff; 
+    display: inline-block; 
+    width: 47%; 
+    height: 14vh; 
+    background: url(../imagenes/bus.png) 0px 0px no-repeat; 
+    text-indent: -1000em; 
+background-size: 100% 200%;
 }
 input[type=checkbox].check3:checked + label { 
     background: url(../imagenes/bus.png) 0px -70px no-repeat;
@@ -45,13 +45,13 @@ input[type=checkbox].check3:checked + label {
 }
 input[type=checkbox].check4 {display: none;}
 input[type=checkbox].check4 + label { 
-	background: #fff; 
-	display: inline-block; 
-	width: 47%; 
-	height: 14vh; 
-	background: url(../imagenes/noche.png) 0px 0px no-repeat; 
-	text-indent: -1000em; 
-	background-size: 100% 200%;
+    background: #fff; 
+    display: inline-block; 
+    width: 47%; 
+    height: 14vh; 
+    background: url(../imagenes/noche.png) 0px 0px no-repeat; 
+    text-indent: -1000em; 
+background-size: 100% 200%;
 }
 input[type=checkbox].check4:checked + label { 
     background: url(../imagenes/noche.png) 0px -70px no-repeat;
@@ -59,13 +59,13 @@ input[type=checkbox].check4:checked + label {
 }
 input[type=checkbox].check5 {display: none;}
 input[type=checkbox].check5 + label { 
-	background: #fff; 
-	display: inline-block; 
-	width: 47%; 
-	height: 14vh; 
-	background: url(../imagenes/dominicales.png) 0px 0px no-repeat; 
-	text-indent: -1000em; 
-	background-size: 100% 200%;
+    background: #fff; 
+    display: inline-block; 
+    width: 47%; 
+    height: 14vh; 
+    background: url(../imagenes/dominicales.png) 0px 0px no-repeat; 
+    text-indent: -1000em; 
+    background-size: 100% 200%;
 }
 input[type=checkbox].check5:checked + label { 
     background: url(../imagenes/dominicales.png) 0px -70px no-repeat;
@@ -79,69 +79,77 @@ header {
     }
     
 #titulo {
-	font-size: 11vw;
-	float: right; 
-	margin-top: 3%;
-	right: 7%;
+    font-size: 11vw;
+    float: right; 
+    margin-top: 3%;
+    right: 7%;
 }
 nav {
-	width: 100%;
+    width: 100%;
 }
 
-.menu ul, .menu li {
-	list-style: none;
-	margin:-10px -1px 12px -50px; 
-	padding:0px 0px 0px 9px;
+.menu ul{
+    list-style: none;    
+    width:100%;
 }
+.menu li {
+    margin-top:2%;
+    list-style: none;
+    width:50%;
+    float: left;
+}
+
 .menu a {
-	background: #FFFF00;
-	color: #8b8b8b;
-	display: block;
-	font: bold 21px/20px sans-serif;
-	padding: 10px 25px;
-	text-align: center;
-	text-decoration: none;	
+    background: #FFFF00;
+    color: #8b8b8b;
+    display: block;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 5% 20%;
+    text-align: center;
+    text-decoration: none;	
+    font-size: 8vw;
+    width:75%;
+    margin-left:-30%
 }
 .menu li:hover a {
-	background: #000000;
+    background: #000000;
 }
 #unid {
-	color: #8b8b8b;
-	display: block;
-	font: lighter 22px/22px cursive;	
-	text-align: center;
-	text-decoration: none;
+    color: #8b8b8b;
+    display: block;
+    font: lighter 22px/22px cursive;	
+    text-align: center;
+    text-decoration: none;
 }
 
 .cuadro{
-	text-align: center;
+    text-align: center;
 }
 
 #recargos{
-	color: #8b8b8b;
-	font: lighter 22px/0px cursive;	
-	
-	margin-top: opx;
-	width: 100%;
-	
-	margin: auto;
+    color: #8b8b8b;
+    font: lighter 22px/0px cursive;	
+    margin-top: opx;
+    width: 100%;
+    margin: auto;
 }
 
 .unidades {
-	width: 10px;
+    width: 10px;
 }
 
 #resul {
-	text-align: center;
-	font-size: 15vw;
-	background-color: green;
-	width: 100%;
-	height:auto;
+    text-align: center;
+    font-size: 15vw;
+    background-color: green;
+    width: 100%;
+    height:auto;
 }
 
 .precio {
-	float: right;
-	width: 47%;
-	height: 14vh; 
-	margin-right: 4%;
+    float: right;
+    width: 47%;
+    height: 14vh; 
+    margin-right: 4%;
 }
