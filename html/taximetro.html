@@ -5,28 +5,25 @@
     <link  rel="stylesheet" type="text/css" href="../css/taximetro.css"> 
 </heat>
 <body>
-	<header>
+	<div id="header">
         <img src="../imagenes/logo.png" width="20%" height="auto">
         <div id="titulo">TAXIMETRO</div>
+    </div>
     
-
-    <nav>
-        <ul class="menu">
-            <li><a class="izquierda" href="#">Horas</a></li>
-            <li><a class="derecho" href="#">Info</a></li>
-        </ul>
-    </nav>
-    </header>  
-
-   <div id="recargos">
-          <div id="unid">
+    <div id="menuss">
+        <div id="horas">  Horas </div>
+        <div id="info">Info</div>
+    </div>
+      
+<div id="resul"></div>
+   <div id="unid">
                 <label>Unidades</label>
-                <input type="tel"  id="unidades" name="obligatorio" onKeyup="chequea(this,this.form.enviar)"/>
-           </div>
+                <input  class="textbox" id="unidades" size="4" type="tel"  name="obligatorio" onKeyup="chequea(this,this.form.enviar)"/>
+          
+    </div>
 
-
-        <br><p><div id="resul"></div></p><br>
-        
+       
+    <div id="recargos">    
         <input mane="check" id="check1" class="check1" value="50" type="checkbox">   
             <label for="check1">Aeropuesto</label>
         <input mane="check" class="check2" id="check2" value="9" type="checkbox">
@@ -42,5 +39,5 @@
         
 
     </div>		        
-</div>	
+
 </body>

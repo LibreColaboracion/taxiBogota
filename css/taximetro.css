@@ -74,8 +74,10 @@ input[type=checkbox].check5:checked + label {
 p{
     color: aqua;
 }
-header {
+
+#header {
     border: 1px solid black;
+    height: 18vw;
     }
     
 #titulo {
@@ -84,67 +86,53 @@ header {
     margin-top: 3%;
     right: 7%;
 }
-nav {
+
+#menuss {
     width: 100%;
-}
-
-.menu ul{
-    list-style: none;    
-    width:100%;
-}
-.menu li {
-    margin-top:2%;
-    list-style: none;
-    width:50%;
-    float: left;
-}
-
-.menu a {
-    background: #FFFF00;
-    color: #8b8b8b;
-    display: block;
-    font-weight: bold;
-    font-family: sans-serif;
-    padding: 5% 20%;
     text-align: center;
-    text-decoration: none;	
-    font-size: 8vw;
-    width:75%;
-    margin-left:-30%
-}
-.menu li:hover a {
-    background: #000000;
-}
-#unid {
-    color: #8b8b8b;
-    display: block;
-    font: lighter 22px/22px cursive;	
+    font: lighter 22px/40px cursive;   
     text-align: center;
     text-decoration: none;
+    font-size: 8vw;
+    float: right; 
+    margin-top: 3%;
+    right: 7%;
+
+
+
 }
 
-.cuadro{
-    text-align: center;
+
+#horas{
+    float: left;
+   background-color: #FFCC00;
+    width: 50%;
+    height: 40px;
+
+
+
+} 
+
+
+
+
+
+#info{
+    float: left;
+    background-color: #FFCC00;
+    width: 50%;
+    height: 40px;
+    
 }
 
-#recargos{
-    color: #8b8b8b;
-    font: lighter 22px/0px cursive;	
-    margin-top: opx;
-    width: 100%;
-    margin: auto;
-}
-
-.unidades {
-    width: 10px;
-}
 
 #resul {
     text-align: center;
     font-size: 15vw;
-    background-color: green;
+    background-color: #FC8505;
     width: 100%;
-    height:auto;
+    color: White;
+    
 }
 
 .precio {
@@ -153,3 +141,23 @@ nav {
     height: 14vh; 
     margin-right: 4%;
 }
+
+#unid {
+    color: #8b8b8b;
+    display: block;
+    font-size: 11vw;
+
+    
+}
+
+
+.textbox
+    {
+    border: 1px solid #DBE1EB;
+    font-size: 11vw;
+    border-radius: 40px;
+    background: #FFFFFF;
+    color: #2E3133;
+    text-align: center;
+    margin: 10px 4px 6px -5px;
+    }
